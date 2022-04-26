@@ -1,0 +1,21 @@
+config = {
+'lr': 0.00016006211228795981,
+'adam_beta1': 0.9,
+'weight_decay': 5.300375072612923e-06,
+'rnn_arch': 988,
+'n_iter': 19694,
+'input_fraction': 0.275044606633363,
+'output_fraction': 0.25351452867796664,
+'batch_size': 64,
+'dont_use_adam': False,
+'rnn_pre_fc_layers': '',
+'rnn_post_fc_layers': '',
+'net_act': 'tanh',
+'dont_use_bias': False,
+'use_vanilla_rnn': True,
+'fc_rec_output': False,
+'random_microcircuit_connectivity': True,
+'random_seed': 42,
+'save_logs': True,
+'out_dir': 'bio_rnn/out/audioset_rnn_microcircuit_random'
+}
